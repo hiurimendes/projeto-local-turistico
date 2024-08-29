@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #333333;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+.page-div {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto 48px; 
+}
+
+main {
+  border-bottom: solid #D9D9D9 1px;
+  margin-bottom: 64px;
+  padding-bottom: 40px;
+}
+
+main div {
+  margin-top: 48px;
+}
+
+div > main + main {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+img {
+  border-radius: 28px;
+}
+
+.italic-text {
+  font-style: italic;
+  margin-top: 24px;
+}
+
+h1 {
+  color: #1B1B1B;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #1B1B1B;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  margin-top: 20px;
+  padding-left: 8px;
+}
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  font-weight: bold;
+  padding-left: 28px;
+}
+
+.tag-history {
+  color: #0C51A7;
+}
+
+.tag-couple {
+  color: #591B98;
+}
+
+.tag-family {
+  color: #E5245E;
+}
+
+.tag-budget {
+  color: #E95E10;
+}
+
+.headline {
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.introduction-paragraph {
+  margin-bottom: 64px;
+}
